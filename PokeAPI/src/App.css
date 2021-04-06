@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* my style sheet  */
+
+body{
+  background-image: linear-gradient(30deg, red, white, blue, white, red, green, yellow, green, white, blue, white, red);
+  background-repeat: no-repeat;
+  font-weight: bold;
+  color: grey;
+}
+.red{
+  color: antiquewhite;
+  background-image: linear-gradient(red, #814617);
+border-radius: 5px;
+}
+.orange{
+  color: #0a1195;
+  background-image: linear-gradient(orange, #cc5500);
+border-radius: 5px;
+}
+.yellow{
+  color: #00703c;
+  background-image: linear-gradient(yellow, #daa520);
+border-radius: 5px;
+}
+.green{
+  color: beige;
+  background-image: linear-gradient(#65ff00, green);
+border-radius: 5px;
+}
+.blue{
+  color: goldenrod;
+  background-image: linear-gradient(#0048ba, blue);
+border-radius: 5px;
+}
+.indigo{
+  color: antiquewhite;
+  background-image: linear-gradient(#360ccc, #4b0082);
+border-radius: 5px;
+}
+.purple{
+  color: antiquewhite;
+  background-image: linear-gradient(purple, #512888);
+border-radius: 5px;
+}
+.beach{
+  color: antiquewhite;
+  background-image: linear-gradient(#0078d7, antiquewhite);
+border-radius: 5px;
+}
+.desert{
+  color: black;
+  background-image: linear-gradient(blue, green, #edc9af);
+border-radius: 5px;
+}
+.ou{
+  background-image: linear-gradient(#841617, #ffffbf);
+  height: 200px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.ou1{
+  background-image: linear-gradient(#ffffbf, #841617);
+  height: 200px;
+  margin: 20px;
+  border-radius: 15px;
+}
+.redbtn{
+  color: antiquewhite;
+  background-image: linear-gradient(red, darkred);
+  border-radius: 5px;
+  font-size: 20px;
+  border-color: red;
+}
+.orangebtn{
+  color: antiquewhite;
+  background-image: linear-gradient(orange, darkorange);
+  border-radius: 5px;
+  font-size: 20px;
+  border-color: orange;
+}
+.yellowbtn{
+  color: black;
+  background-image: linear-gradient(yellow, goldenrod);
+  border-radius: 5px;
+  font-size: 20px;
+  border-color: yellow;
+}
+.greenbtn{
+  color: antiquewhite;
+  background-image: linear-gradient(#32cd32, forestgreen);
+  border-radius: 5px;
+  font-size: 20px;
+  border-color: #32cd32;
+  font-weight: bolder;
+}
+.bluebtn{
+  color: antiquewhite;
+  background-image: linear-gradient(#0048ba, blue);
+  border-radius: 5px;
+  font-size: 20px;
+  border-color: #0048ba;
+}
+.purplebtn{
+  color: antiquewhite;
+  background-image: linear-gradient(#512888, #360888);
+  border-radius: 5px;
+  font-size: 20px;
+  border-color: #512888;
+}
